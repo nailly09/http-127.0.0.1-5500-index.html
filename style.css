@@ -1,0 +1,153 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+* {
+    font-family: 'montserrat';
+}
+
+*{
+    margin: 0;
+}
+
+
+body {margin: 0auto;
+}
+
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+
+header.header img {
+    width: 150px;
+}
+
+
+
+
+
+section.top-page {
+    background:url('../HF_discord.png');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+/* page de bienvenue (landing page) */
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: blueviolet;
+    font-size: 90px;
+    font-family: 'Abril FatFace';
+}
+
+.scroll-down{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 250px;
+}
+
+
+
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color:white;
+    font-size: 20px;
+}
+
+/* icone vidéo */
+
+.icone-vidéo{
+    text-align: center;
+}
+
+.les-best-of-avec-logo{
+    color: red;
+    font-size: 50px;
+}
+
+.vidéo-ytb {
+    height: 50vh;
+    width: 100%;   
+}
+
+.bouton-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    background-color: indigo;
+    color: white;
+    border: 0;
+    padding: 10px 40px;
+    transform: skew(-15deg);
+    cursor: pointer;
+    transition: 0,2s;
+    box-shadow: 15px 15px 0px black;
+}
+button:hover {
+    padding-right: 80px;
+}
+
+
+.best-of1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    background-color: burlywood;
+    color:black;
+    border: 0;
+    padding: 10px 40px;
+    transform: skew(-15deg);
+    cursor: pointer;
+    transition: 0,2s;
+    box-shadow: 15px 15px 0px yellow;
+}
+
+
+.best-of2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    background-color: violet;
+    color:black;
+    border: 0;
+    padding: 10px 40px;
+    transform: skew(-15deg);
+    cursor: pointer;
+    transition: 0,2s;
+    box-shadow: 15px 15px 0px green;
+}
